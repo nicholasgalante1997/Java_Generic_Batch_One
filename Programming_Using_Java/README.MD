@@ -5,44 +5,45 @@ This document is intended to provide a comprehensive framework for review of and
 The Topics Included in This Section Are as Listed Below
 
 `` Intro To Java `` 
+
     CODE PATH: ./src/com/intro/to/java/HelloWorld.java 
     Notes: Start on Line 
 
 `` Keywords, Variables, Identifiers, and Datatypes ``
-    CODE PATH: ./src/com/keywords/variables/identifiers/datatypes/Example1.java 
-    Notes: Start on Line 
 
-3. Operators
-4. Type Conversion
-5. Selection Control Structure
-6. Iteration Control Structure
-7. Intro To OOP 
-8. Methods
-9. Constructors
-10. this Keyword 
-11. Memory Management
-12. Encapsulation
-13. Abstraction
-14. Access Modifiers
-15. Class Diagrams
-16. Array
-17. String
-18. Debugging
-19. Code Analysis
-20. Static 
-21. Relationships
-22. Association
-23. Aggregation
-24. Inheritance
-25. Method Overloading
-26. Object and Wrapper Classes
-27. Abstract
-28. final Keyword
-29. Interface
-30. Package 
-31. Exception
-32. Unit Testing and Code Coverage
-33. Regex
+    CODE PATH: ./src/com/keywords/variables/identifiers/datatypes/Example1.java 
+
+`` Operators ``
+`` Type Conversion ``
+`` Selection Control Structure ``
+`` Iteration Control Structure ``
+`` Intro To OOP ``
+`` Methods ``
+`` Constructors ``
+`` this Keyword ``
+`` Memory Management ``
+`` Encapsulation ``
+`` Abstraction ``
+`` Access Modifiers ``
+`` Class Diagrams ``
+`` Array ``
+`` String ``
+`` Debugging ``
+`` Code Analysis ``
+`` Static ``
+`` Relationships ``
+`` Association ``
+`` Aggregation ``
+`` Inheritance ``
+`` Method Overloading ``
+`` Object and Wrapper Classes ``
+`` Abstract ``
+`` final Keyword ``
+`` Interface ``
+`` Package ``
+`` Exception ``
+`` Unit Testing and Code Coverage ``
+`` Regex ``
 
 
 `` INTRO TO JAVA `` 
