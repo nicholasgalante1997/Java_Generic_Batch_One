@@ -2,17 +2,6 @@ package com.keywords.variables.identifiers.datatypes;
 
 public class Example1 {
 	public static void main(String[] args) {
-		// 1. Keywords 
-		
-		/* In the above 'main' method declaration
-		 * public, static, and void are all keywords
-		 * keywords cannot be used as variable names in Java */
-		
-		// 2. Variables
-		
-		/* Variables are used to store data
-		 * Variables themselves indicate an allocation 
-		 * of memory in which a value is retained */
 		
 		// Variable Declaration
 		String name;
@@ -29,11 +18,34 @@ public class Example1 {
 				" and I love Java programming!"
 		);
 		
-		// 3. Identifiers
-		// In the above variable statements,
-		// age and name are identifiers
-		 
-		// 4. Data Types
+		System.out.println();
+		
+		// Primitive Types (8)
+		
+		boolean tired = true; // boolean type
+		byte smallNum = 0; // byte type
+		char currentMood = 'L'; // char type
+		int integer = 44; // int type
+		short shortNum = 22; // short type
+		long ratherLargeNum = 570_000_000L; // long
+		float pi = 3.14f; // float 
+		double fib = 1.6517; // double 
+		
+		// Reference Types (Objects and such)
+		String house = "Stark";
+		
+		System.out.println("Primitive Data Types");
+		System.out.println("example of boolean: " + tired);
+		System.out.println("example of byte: " + smallNum);
+		System.out.println("example of char: " + currentMood);
+		System.out.println("example of int: " + integer);
+		System.out.println("example of short: " + shortNum);
+		System.out.println("example of long: " + ratherLargeNum);
+		System.out.println("example of float: " + pi);
+		System.out.println("example of double: " + fib);
+		
+		System.out.println("\nReference Types");
+		System.out.println("example of reference type: " + house);
 		
 	}
 }

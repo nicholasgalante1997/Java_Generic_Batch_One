@@ -81,30 +81,91 @@ Bingo first program done; Off to level 2;
         * Primitive
             - variables of primitive data types hold the value of the data item
             - Eight Different Types of Primitive Data 
-            - boolean, char, byte, short, int, long, double, float
+            - boolean, char, byte, short, int, long, double, float 
+
+             ``` Primitive Data Types ``` 
+
+            1) boolean 
+                - stores true or false 
+                - defaults to false 
+                - 1 bit size 
+                - Range of true or false 
+                - Example: 
+                    ` boolean overThirty = false; `
+
+            2) byte 
+                - stores whole numbers of small values
+                - defaults to 0
+                - 8 bit size 
+                - Range of (-2^7) to (2^7 - 1)
+                - Example: 
+                    ` byte num = 0; `
+
+            3) char
+                - stores one unicode character
+                - defaults to '\u0000' 
+                - 16 bits size
+                - Range of '\u0000' - \uffff'
+                - Example: 
+                    ` char havingFun = 'Y'; `
+            
+            4) short 
+                - stores whole numbers of small values 
+                - defaults to 0
+                - 16 bit size 
+                - Range from -2^13 - (2^13 - 1)
+                - Example: 
+                    ` short num = 2216; `
+
+            5) int 
+                - stores whole numbers (preferred whole number primitive type)
+                - defaults to 0
+                - 32 bits 
+                - Range from (-2^31) - (2^31 - 1)
+                - Example: 
+                    ` int episodesOfGOT = 73; `
+
+            6) long 
+                - stores whole numbers even larger than int
+                - defaults to 0
+                - must be suffixed with an L 
+                - 64 bits 
+                - Range from (-2^63) - (2^63 - 1)
+                - Example: 
+                    ` long distanceToSun = 92_000_000_000L; `
+
+            7) float 
+                - stores decimals up to 6-7 degrees of precision '.0000001'
+                - suffixed with f 
+                - defaults to 0.0 
+                - 32 bits 
+                - Range from 1.4e-045 - 3.4e038
+                - Example: 
+                    ` float spotifySub = 9.99f; `
+                
+            8) double 
+                - stores decimals up to 15 spaces right of the decimal point 
+                - defaults to 0.0 
+                - 64 bits 
+                - Range from 4.9e-324 to 1.8e308 
+                - Example 
+                    ` double decimal = 1.123214; `
+
         * Non Primitive (Reference)
             - Variables of a non primitive data types hold the reference of the memory location where the object is stored as opposed to holding the value of the data item itself. 
-            Reference data types hold references!!! 
+            - Reference data types hold references!!! 
+            - Includes Classes, Arrays, Interfaces, Objects, Etc 
+            - These can be predefined from the Java library or user defined classes or interfaces, etc. 
+            - i.e. String is a predefined class in the Java library, similar to String objects of other languages like Javascript or Ruby. 
 
-    ``` Primitive Data Types ``` 
+            ` String phrase = "Catch-22"; `
 
-    1) boolean 
-        - stores true or false 
-        - defaults to false 
-        - 1 bit size 
-        - Range of true or false 
-        - Example: 
-            ` boolean overThirty = false; `
-
-    2) byte 
-        - stores whole numbers of small values
-        - defaults to 0
-        - 8 bit size 
-        - Range of (-2^7) to (2^7 - 1)
-        - Example: 
-            ` byte num = 0; `
-
-    3) char
+    - Java Conventions Regarding Variables 
+        - In Java, variable names conventionally start with lower case letters as long as they're not constants, which are instead indicated by all upper case letters 
+        - Goes by camelcase e.g. gameOfThrones 
+        - Comments for code follow a double forward slash '//' 
         
+
+   
 
 
