@@ -4,11 +4,11 @@ This document is intended to provide a comprehensive framework for review of and
 
 The Topics Included in This Section Are as Listed Below
 
-1. Intro To Java 
+`` Intro To Java `` 
     CODE PATH: ./src/com/intro/to/java/HelloWorld.java 
     Notes: Start on Line 
 
-2. Keywords, Variables, Identifiers, and Datatypes
+`` Keywords, Variables, Identifiers, and Datatypes ``
     CODE PATH: ./src/com/keywords/variables/identifiers/datatypes/Example1.java 
     Notes: Start on Line 
 
@@ -45,7 +45,8 @@ The Topics Included in This Section Are as Listed Below
 33. Regex
 
 
-``` INTRO TO JAVA ``` 
+`` INTRO TO JAVA `` 
+
 No Notes this section; 
 It's customary to start every coding language venture off with a 'Hello World' program, and we're not reinventing the wheel today so; 
 Step by Step 
@@ -56,6 +57,7 @@ Step by Step
 Bingo first program done; Off to level 2;
 
 ``` Keywords, Variables, Identifiers, DataTypes ```
+
 1. Keywords
     - In every programming language there are certain reserved words which cannot be overwritten (variables cannot be named these words). 
 2. Variables 
@@ -67,11 +69,11 @@ Bingo first program done; Off to level 2;
 
     the first part, the Identifier, is what the developer elects to name the variable. 
 
-        * String name; * 
+         String name; 
 
     then there is the assignment operator, the '=' sign. 
 
-        * name = "Nick G"; *
+         name = "Nick G"; 
 
     and lastly, there is the right side of the assignment operator, which at its basest component is some bit of value that needs to be allocated memory because we're not done interacting with it yet. In the case above, it's a String literal. 
 
@@ -163,8 +165,8 @@ Bingo first program done; Off to level 2;
     - Java Conventions Regarding Variables 
         - In Java, variable names conventionally start with lower case letters as long as they're not constants, which are instead indicated by all upper case letters 
         - Goes by camelcase e.g. gameOfThrones 
-        - Comments for code follow a double forward slash '//' 
-        
+        - Comments for code follow a double forward slash ` // `
+
 
    
 
